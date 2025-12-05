@@ -10,8 +10,10 @@ JSONs (original vs converted) are compared for differences
 
 ## YAML
 
-`oscal-cli catalog convert --to=yaml 'Grundschutz++-Kompendium.json' 'Grundschutz++-Kompendium-converted.yaml'`
-`oscal-cli catalog convert --to=json 'Grundschutz++-Kompendium-converted.yaml' 'Grundschutz++-Kompendium-converted-from-yaml.json'`
+```bash
+oscal-cli catalog convert --to=yaml 'Grundschutz++-Kompendium.json' 'Grundschutz++-Kompendium-converted.yaml'
+oscal-cli catalog convert --to=json 'Grundschutz++-Kompendium-converted.yaml' 'Grundschutz++-Kompendium-converted-from-yaml.json'
+```
 
 ### YAML Comparison
 
@@ -37,8 +39,10 @@ sha256sum Grundschutz++-Kompendium*.json
 
 ## XML
 
-`oscal-cli catalog convert --to=xml 'Grundschutz++-Kompendium.json' 'Grundschutz++-Kompendium-converted.xml'`
-`oscal-cli catalog convert --to=json 'Grundschutz++-Kompendium-converted.xml' 'Grundschutz++-Kompendium-converted-from-yaml.json'`
+```bash
+oscal-cli catalog convert --to=xml 'Grundschutz++-Kompendium.json' 'Grundschutz++-Kompendium-converted.xml'
+oscal-cli catalog convert --to=json 'Grundschutz++-Kompendium-converted.xml' 'Grundschutz++-Kompendium-converted-from-yaml.json'
+```
 
 ### XML Comparison
 
